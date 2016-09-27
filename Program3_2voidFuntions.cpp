@@ -10,8 +10,8 @@
 #include <iostream>
 #include <cctype>
 
-void printValue(int);
-void checkInputValue(int);
+void printValue(int);//priting funtion prototype
+void checkInputValue(int); //checking for valid input prototype
 using namespace std;
 bool inputValid;// flag for checking for input validation
 int main()
