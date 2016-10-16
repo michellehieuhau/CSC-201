@@ -1,0 +1,89 @@
+//*********************************************************************************************
+// Group #3
+// Version: 1.2
+// Date: 9/27/16
+// Names: Jeremy, Madeline, Eddie, Hieu, Robert
+// In-class assignment 2
+// Description: This program reads lines from a file, print out the line and its reverse order.
+// 		It tells the user if the line is a palindrome.
+//
+//*********************************************************************************************
+
+ // Open the file
+    
+    // While the file is open, read a line from the file
+    	// Print out the line.
+        // Print out the reverse order of the line.
+        
+        // From the end of the string to the start, check to see if the last character
+        // is equal to the first
+		// When comparing characters, compare the uppercase of each character to ignore any case differences
+
+        // Continue comparing characters by decrementing the last and incrementing the first
+        // until you reach the middle of the line. 
+
+        // While either of the characters that is being compared is punctuation or a space, 
+            // if it is from the beginning of the line, use the next character for comparison instead
+            // if it is from the end of the line, use the previous character for comparison instead
+
+        // If all compared characters are the same, the line is a palindrome
+    // Tell the user if it is a palindrome
+
+ // Close file
+
+
+Running The Code with respect to variable values and iteration
+Let input is 121
+Before for loop variable values are
+palindrome=121;
+key=121;
+reverse=0;
+num=0;
+
+After for loop
+
+1st iteration when   i = 1
+
+num=1;
+palindrome=12;
+reverse=1;
+2nd iteration when   i = 2
+
+num=2;
+palindrome=1;
+reverse=12;
+3rd iteration when   i = 3
+
+num=1;
+palindrome=0;
+reverse=121;
+So palindrome=0; loop will break and program control 
+will transfer to if else statement
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    //declare variables
+    int palindrome, reverse=0;
+    
+    //Prompt input from user
+    cout<<"Enter number:  ";
+    cin>>palindrome;
+    
+    int num=0,key=palindrome;
+        for(int i=1;palindrome!=0;i++)
+        {
+            num=palindrome%10;
+            palindrome=palindrome/10;
+            reverse=num+(reverse*10);
+        }
+
+   if(reverse==key){
+   cout<<key<<" is a Palindrome Number";
+            }
+            else{
+   cout<<key<<"is NOT a Palindrome Number";
+            }
+return 0;
+}
