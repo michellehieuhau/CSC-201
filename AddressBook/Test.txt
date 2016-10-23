@@ -1,0 +1,9 @@
+Mickey, Mouse, (123) 555-1212
+1 Disney Lane, DisneyLand, CA, 92802
+mickey@email.com, mickeyfacebook, mickeytwitter
+Donald, Duck, (123) 555-1213
+Duckville, DisneyWorld, CA, 92803
+donald@email.com, donaldfacebook, donaldtwitter
+Minnie, Mouse, (123) 555-1212
+1 Disney Lane, DisneyLand, CA, 92802
+minnie@email.com, minniefacebook, minnietwitter

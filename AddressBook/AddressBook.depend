@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1477240805 source:c:\users\michellehieuhau\desktop\addressbook\addrecord.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"AddressBook.h"
+	"ValidRecord.h"
+
+1477237555 c:\users\michellehieuhau\desktop\addressbook\addressbook.h
+
+1477240526 c:\users\michellehieuhau\desktop\addressbook\validrecord.h
+
+1477237509 source:c:\users\michellehieuhau\desktop\addressbook\addressbook.cpp
+	<iostream>
+	<fstream>
+	"AddressBook.h"
+	"GetRecord.h"
+	"PrintRecord.h"
+	"SearchRecord.h"
+	"AddRecord.h"
+	"ValidRecord.h"
+
+1477239415 c:\users\michellehieuhau\desktop\addressbook\getrecord.h
+
+1477239499 c:\users\michellehieuhau\desktop\addressbook\printrecord.h
+
+1477239347 c:\users\michellehieuhau\desktop\addressbook\searchrecord.h
+
+1477239650 c:\users\michellehieuhau\desktop\addressbook\addrecord.h
+
+1477239389 source:c:\users\michellehieuhau\desktop\addressbook\getrecord.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	"AddressBook.h"
+	"ValidRecord.h"
+
+1477239476 source:c:\users\michellehieuhau\desktop\addressbook\printrecord.cpp
+	<iostream>
+	<fstream>
+	"AddressBook.h"
+	"GetRecord.h"
+
+1477239318 source:c:\users\michellehieuhau\desktop\addressbook\searchrecord.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"AddressBook.h"
+	"GetRecord.h"
+	"PrintRecord.h"
+	"ValidRecord.h"
+
+1477240530 source:c:\users\michellehieuhau\desktop\addressbook\validrecord.cpp
+	<iostream>
+	<string>
+	<cctype>
+	"AddressBook.h"
+
