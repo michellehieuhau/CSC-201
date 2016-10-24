@@ -87,3 +87,37 @@ int main()
             }
 return 0;
 }
+
+
+#include <iostream>
+ 
+using namespace std;
+  
+int main(){
+    char inputString[100];
+    int l, r, length = 0;
+    cout << "Enter a string for palindrome check\n";
+    cin >> inputString;
+     
+    // Find length of string
+    while(inputString[length] != '\0')
+        length++;
+          
+    // Initialize l(left) and r(right) to first and 
+    // last character of input string 
+    l = 0;
+    r = length -1;
+    // Compare left and right characters, If equal then 
+    // continue otherwise not a palindrome
+    while(l < r){
+        if(inputString[l] != inputString[r]){
+            cout<<"Not a Palindrome"<< endl;
+            return 0;
+        }
+        l++;
+        r--;
+    }
+    cout << "Palindrome\n" << endl;
+     
+    return 0;
+}
