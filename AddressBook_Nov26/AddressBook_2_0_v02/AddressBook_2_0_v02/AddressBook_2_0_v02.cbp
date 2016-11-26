@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AddressBook_2_0_v02" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AddressBook_2_0_v02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AddressBook_2_0_v02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AddEntry.cpp" />
+		<Unit filename="AddEntry.h" />
+		<Unit filename="AddRecord.cpp" />
+		<Unit filename="AddRecord.h" />
+		<Unit filename="AddressBook.cpp" />
+		<Unit filename="AddressBook.h" />
+		<Unit filename="Get.cpp" />
+		<Unit filename="Get.h" />
+		<Unit filename="MainMenu.cpp" />
+		<Unit filename="MainMenu.h" />
+		<Unit filename="Manip.cpp" />
+		<Unit filename="Manip.h" />
+		<Unit filename="OpenFile.cpp" />
+		<Unit filename="OpenFile.h" />
+		<Unit filename="Print.cpp" />
+		<Unit filename="Print.h" />
+		<Unit filename="Search.cpp" />
+		<Unit filename="Search.h" />
+		<Unit filename="Update.cpp" />
+		<Unit filename="Update.h" />
+		<Unit filename="WriteRecord.cpp" />
+		<Unit filename="WriteRecord.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
